@@ -12,7 +12,8 @@ app = FastAPI()
 
 origins = [
     "http://localhost:5173",  # Vite default dev server port
-    # Add the production domain here when you deploy
+    "https://resume-builder-api-hfwb.onrender.com", # Add the production domain here when you deploy
+    ""
 ]
 
 app.add_middleware(
