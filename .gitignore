@@ -1,0 +1,18 @@
+# Python related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+
+# Docker files
+*.log
+docker-compose.yml
+
+*.pdf
+*.aux
+*.out
+*.tex
